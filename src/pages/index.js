@@ -80,22 +80,6 @@ function HomePage() {
     </button>
     </div>
 
-    <div class="mb-5">
-            <label for="name" class="text-lg flex justify-between items-end"><span>Name</span><span class="text-xs text-red-500 ">Required</span></label>
-            <div class="mt-1 flex shadow-md">
-                <span class="inline-flex items-center px-3 rounded-none border border-r-0 border-gray-900 dark:border-gray-100"><i class="fas fa-user"></i></span>
-                <input type="text" name="name" class="flex-1 block w-full sm:text-sm rounded-none border border-gray-900 dark:border-gray-100 bg-white dark:bg-gray-900"/>
-            </div>
-        </div>
-        <div class="mb-5">
-            <label for="email" class="text-lg flex justify-between items-end"><span>Email</span><span class="text-xs text-red-500">Required</span></label>
-            <div class="mt-1 flex shadow-md">
-                <span class="inline-flex items-center px-3 rounded-none border border-r-0 border-gray-900 dark:border-gray-100"><i class="fas fa-envelope"></i></span>
-                <input type="email" name="email" class="flex-1 block w-full sm:text-sm rounded-none border border-gray-900 dark:border-gray-100 bg-white dark:bg-gray-900"/>
-            </div>
-        </div>
-
-
   <div className="flex flex-wrap -mx-3 mb-2">
     <div className="w-full md:w-1/3 px-3 mb-6 md:mb-0">
       <label className="block uppercase tracking-wide text-white-700 text-xs font-bold mb-2" for="grid-city">
